@@ -67,7 +67,7 @@ def main():
     # 나중 워커 설정해서 자동적으로
     for i in worker_list:
 
-        defalut_path = f'S:/traffic_night/{i}/rejections'
+        defalut_path = f'S:/traffic_night2/{i}/rejections'
         xml_list = glob.glob(f'{defalut_path}/Annotations/*.xml')
         if xml_list is None:
             pass
